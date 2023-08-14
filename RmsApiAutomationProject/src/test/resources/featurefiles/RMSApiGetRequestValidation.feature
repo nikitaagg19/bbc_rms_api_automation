@@ -12,7 +12,7 @@ Feature: Verifying the status, response time and response of a GET Request
   Scenario: Check response time of GET Request
     Given user has received a response
     When user checks the response time of API
-    Then response time for the request is under 3000 ms
+    Then response time for the request is under 1000 ms
 
   @APITest
   Scenario: Check values for response fields: id and segment_type
