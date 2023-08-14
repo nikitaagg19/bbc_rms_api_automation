@@ -12,7 +12,7 @@ Feature: Verifying the status, response time and response of a GET Request
   Scenario: Check response time of GET Request
     Given user has received a response
     When user checks the response time of API
-    Then response time for the request is under 3000 ms
+    Then response time for the request is under 1000 ms
 
   @APITest
   Scenario: Check values for response fields: id and segment_type
@@ -38,3 +38,22 @@ Feature: Verifying the status, response time and response of a GET Request
     Given user has received a response
     When user checks the Date value in Response Header
     Then Date should have valid value
+    
+  @ManualTest
+  Scenario: Verify URI field under uris object should have a valid format
+  	Given user has received a response
+  	When user checks the uri field of a uris object under data array
+  	Then uri field has a valid value
+  
+  @ManualTest	
+  Scenario: Check the type field under uris always has value commercial-music-service
+  	Given user has received a response
+  	When user checks the type in uris object of every object under data array
+  	Then it always has value commercial-music-service if data for uris object is present
+  
+  @ManualTest	
+  Scenario: Check fields start and end in offset object is never empty
+  	Given user has received a response 
+  	When user check start and end field in offset object under data array
+  	Then start and end field is never empty or null
+  	

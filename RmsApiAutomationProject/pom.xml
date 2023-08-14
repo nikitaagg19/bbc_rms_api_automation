@@ -6,9 +6,9 @@
 	<artifactId>RmsApiAutomationProject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
-     <maven.compiler.source>1.8</maven.compiler.source>
-     <maven.compiler.target>1.8</maven.compiler.target>
-</properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
 	<!-- for Cucumber -->
 	<dependencies>
 		<dependency>
@@ -40,20 +40,20 @@
 			<artifactId>json-schema-validator</artifactId>
 			<version>5.2.0</version>
 			<scope>test</scope>
-		</dependency>	
-<dependency>
-    <groupId>org.apache.logging.log4j</groupId>
-    <artifactId>log4j-core</artifactId>
-    <version>2.20.0</version>
-</dependency>
-<dependency>
-    <groupId>org.apache.logging.log4j</groupId>
-    <artifactId>log4j-api</artifactId>
-    <version>2.20.0</version>
-</dependency>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.20.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.20.0</version>
+		</dependency>
 
 
-			</dependencies>
+	</dependencies>
 
 	<build>
 		<plugins>

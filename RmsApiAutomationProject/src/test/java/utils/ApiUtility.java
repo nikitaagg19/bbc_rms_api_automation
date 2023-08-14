@@ -2,7 +2,7 @@ package utils;
 
 /**
  * 
- * This is API Utility class.It has utility fetches the endpoint and performs various generic operations on the endpoint.
+ * This is API Utility class.This utility fetches the endpoint and performs various generic operations on the endpoint.
  */
 
 
