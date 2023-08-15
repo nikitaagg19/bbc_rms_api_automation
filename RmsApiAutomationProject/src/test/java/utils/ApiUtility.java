@@ -22,7 +22,7 @@ public class ApiUtility {
 
 	private static Logger log = LogManager.getRootLogger();
 /**
- * This method fetches the url from config.properties field and returns the url to the calling method
+ * This method fetches the url from config.properties file and returns the url to the calling method
  * @param endpointName
  * @return the endpoint URL
  */

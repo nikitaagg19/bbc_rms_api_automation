@@ -48,7 +48,7 @@ Feature: Verifying the status, response time and response of a GET Request
   @ManualTest	
   Scenario: Check the type field under uris always has value commercial-music-service
   	Given user has received a response
-  	When user checks the type in uris object of every object under data array
+  	When user checks the field type in uris object of every object under data array
   	Then it always has value commercial-music-service if data for uris object is present
   
   @ManualTest	
