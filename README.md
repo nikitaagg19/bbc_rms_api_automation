@@ -6,7 +6,7 @@
 2. Cucumber
 3. Junit
 4. Maven
-5. Maven-Cucumber_reporting Plugin for reporting
+5. Maven-Cucumber-Reporting Plugin for reporting
 6. Rest assured
 7.log4j for logging
 
