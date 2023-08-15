@@ -16,7 +16,7 @@
 2. A test runner file is created to run the test. Currently test tagged with tag name APITest are run by the Runner file.
 3. The logging is done use log4j
 4. Reporting of the automation run is done using Maven-cucumber-reporting plugin and HTML and JSON reports are generated.
-5. Manual Scenarios which were not to be automated are tagged with tag @ManualTest in the same feature file
+5. Manual Scenarios which were not to be automated are tagged with tag @ManualTest in the same feature file.
 
 **Setup**
 
