@@ -10,7 +10,7 @@ name: Run test on a schedule
 
 on:
   schedule:
-  - cron: "0 15 18 9 *"
+  - cron: "0 14 18 9 *"
 
 jobs:
   build:
