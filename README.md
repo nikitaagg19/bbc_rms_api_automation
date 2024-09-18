@@ -1,5 +1,6 @@
 **bbc_rms_api_automation**
-
+Run Status:
+[![Run test on a schedule](https://github.com/nikitaagg19/bbc_rms_api_automation/actions/workflows/maven.yml/badge.svg)](https://github.com/nikitaagg19/bbc_rms_api_automation/actions/workflows/maven.yml)
 **Tools and Framework used for automation**
 
 1. Java
