@@ -2,7 +2,7 @@ name: Trigger Tests on a CRON schedule
 
 on:
   schedule:
-  - cron: "25 14 * * *"
+    - cron: "45 14 * * *"
 jobs:
   build:
     runs-on: ubuntu-latest
