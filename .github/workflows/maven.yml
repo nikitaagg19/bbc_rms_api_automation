@@ -2,7 +2,7 @@
 name: Java CI with Maven
 on:
   schedule:
-    - cron: 05 13 19 9 *
+    - cron: 07 13 * * *
 jobs:
   build:
     runs-on: ubuntu-latest
